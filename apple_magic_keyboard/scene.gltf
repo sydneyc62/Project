@@ -1,0 +1,708 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23236,
+      "max": [
+        0.2149999886751175,
+        0.05661751329898834,
+        9.269002475775778e-06
+      ],
+      "min": [
+        -0.2149999886751175,
+        -0.05661751329898834,
+        -0.0032500000670552254
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 278832,
+      "componentType": 5126,
+      "count": 23236,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 23236,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23236,
+      "max": [
+        1.0661752223968506,
+        2.6499998569488525
+      ],
+      "min": [
+        -0.06617522239685059,
+        -1.6499998569488525
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 185888,
+      "componentType": 5126,
+      "count": 23236,
+      "max": [
+        8.581033706665039,
+        8.886700630187988
+      ],
+      "min": [
+        -7.56655740737915,
+        -7.886700630187988
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 91218,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 557664,
+      "componentType": 5126,
+      "count": 214,
+      "max": [
+        0.2120819389820099,
+        0.05382398143410683,
+        -0.0013428753009065986
+      ],
+      "min": [
+        -0.2120819389820099,
+        -0.05382398143410683,
+        -0.015027022920548916
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 560232,
+      "componentType": 5126,
+      "count": 214,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 371776,
+      "componentType": 5126,
+      "count": 214,
+      "max": [
+        8.581029891967773,
+        6.672215461730957
+      ],
+      "min": [
+        -7.56655740737915,
+        -5.438477516174316
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 373488,
+      "componentType": 5126,
+      "count": 214,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 364872,
+      "componentType": 5125,
+      "count": 960,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 562800,
+      "componentType": 5126,
+      "count": 262,
+      "max": [
+        0.0042839632369577885,
+        0.05968260020017624,
+        -0.004169451538473368
+      ],
+      "min": [
+        -0.0021200058981776237,
+        0.052045296877622604,
+        -0.010573419742286205
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 565944,
+      "componentType": 5126,
+      "count": 262,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 375200,
+      "componentType": 5126,
+      "count": 262,
+      "max": [
+        8.581029891967773,
+        8.690664291381836
+      ],
+      "min": [
+        -7.405081748962402,
+        -7.456925392150879
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 377296,
+      "componentType": 5126,
+      "count": 262,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 368712,
+      "componentType": 5125,
+      "count": 756,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 569088,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        0.3700578510761261,
+        0.07632526755332947,
+        0.0
+      ],
+      "min": [
+        -0.05115769803524017,
+        -0.02889074943959713,
+        -0.001174195553176105
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 814992,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        0.9978623390197754,
+        0.9978600144386292,
+        1.0
+      ],
+      "min": [
+        -0.9978601336479187,
+        -0.9978597164154053,
+        -0.02957955002784729
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 371776,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        1.0,
+        0.998458206653595,
+        0.9989964962005615,
+        1.0
+      ],
+      "min": [
+        -0.992058277130127,
+        -0.9984729290008545,
+        -0.9989477396011353,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 379392,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        0.9901607036590576,
+        0.9884800314903259
+      ],
+      "min": [
+        0.011316048912703991,
+        0.019233450293540955
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 543328,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        0.9901607036590576,
+        0.9884800314903259
+      ],
+      "min": [
+        0.011316048912703991,
+        0.019233450293540955
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 707264,
+      "componentType": 5126,
+      "count": 20492,
+      "max": [
+        0.9901607036590576,
+        0.9884800314903259
+      ],
+      "min": [
+        0.011316048912703991,
+        0.019233450293540955
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 371736,
+      "componentType": 5125,
+      "count": 81750,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "6 (https://sketchfab.com/skeeeyee)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/apple-magic-keyboard-3c27fd0c66614431950988fcd0b3ff88",
+      "title": "apple magic keyboard"
+    },
+    "generator": "Sketchfab-16.27.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 698736,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 871200,
+      "byteOffset": 698736,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1060896,
+      "byteOffset": 1569936,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 699648,
+      "byteOffset": 2630832,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3330480,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Brushed__Aluminium_baseColor.png"
+    },
+    {
+      "uri": "textures/Brushed__Aluminium_normal.png"
+    },
+    {
+      "uri": "textures/Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.5109522748087062
+        }
+      },
+      "name": "Brushed__Aluminium",
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "roughnessFactor": 0.3772640600325124
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "udnerplastic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.04912026012730954
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "rubber_or_whatever",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534",
+      "normalTexture": {
+        "index": 4,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "roughnessFactor": 0.5170290118439878
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.001_Brushed  Aluminium_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.001_udnerplastic_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.001_rubber or whatever_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 12,
+            "POSITION": 11,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
+          },
+          "indices": 15,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.003_Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TANGENT": 18,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20,
+            "TEXCOORD_2": 21
+          },
+          "indices": 22,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "apple keyboard.fbx"
+    },
+    {
+      "children": [
+        3,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.8212996916465727e-05,
+        -99.99999999999602,
+        0.0,
+        0.0,
+        99.99999999999602,
+        -2.8212996916465727e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cube.001"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.001_Brushed  Aluminium_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube.001_udnerplastic_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Cube.001_rubber or whatever_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -2.8212996916465727e-05,
+        -99.99999999999602,
+        0.0,
+        0.0,
+        99.99999999999602,
+        -2.8212996916465727e-05,
+        0.0,
+        -15.91604995727539,
+        0.1195153221487999,
+        2.3835995197296143,
+        1.0
+      ],
+      "name": "Plane.003"
+    },
+    {
+      "mesh": 3,
+      "name": "Plane.003_Apple_MB110LL_B_Keyboard_With_Numeric_Keypad_812534_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}

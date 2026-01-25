@@ -1,0 +1,8 @@
+Model Information:
+* title:	apple magic keyboard
+* source:	https://sketchfab.com/3d-models/apple-magic-keyboard-3c27fd0c66614431950988fcd0b3ff88
+* author:	6 (https://sketchfab.com/skeeeyee)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

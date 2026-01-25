@@ -11,3 +11,4 @@
 THINGS TO DO
 
 >bring in distance and other functions
+fiigure out how nav-mesh works for walls

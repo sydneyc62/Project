@@ -1,0 +1,448 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.4644503891468048,
+        0.6425455212593079,
+        1.023597002029419
+      ],
+      "min": [
+        -0.46394264698028564,
+        -0.37149640917778015,
+        0.23510198295116425
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 204984,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.9999282956123352,
+        0.999851644039154,
+        0.9999960660934448
+      ],
+      "min": [
+        -0.9999377727508545,
+        -0.9998461604118347,
+        -0.9999997615814209
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.999998927116394,
+        0.9989386796951294,
+        0.9999960660934448,
+        1.0
+      ],
+      "min": [
+        -0.9740133881568909,
+        -0.9960366487503052,
+        -0.9999120831489563,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.999888002872467,
+        0.6471051573753357
+      ],
+      "min": [
+        0.00011208761861780658,
+        0.00011205481132492423
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 136656,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.999888002872467,
+        0.6471051573753357
+      ],
+      "min": [
+        0.00011208761861780658,
+        0.00011205481132492423
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 273312,
+      "componentType": 5126,
+      "count": 17082,
+      "max": [
+        0.999888002872467,
+        0.6471051573753357
+      ],
+      "min": [
+        0.00011208761861780658,
+        0.00011205481132492423
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 101052,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 409968,
+      "componentType": 5126,
+      "count": 13584,
+      "max": [
+        0.42171454429626465,
+        0.5458835959434509,
+        0.42906707525253296
+      ],
+      "min": [
+        -0.42171454429626465,
+        -0.5365623831748962,
+        -0.0052560134790837765
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 572976,
+      "componentType": 5126,
+      "count": 13584,
+      "max": [
+        0.9999999403953552,
+        0.9994646906852722,
+        0.9999584555625916
+      ],
+      "min": [
+        -0.9999999403953552,
+        -0.9999818205833435,
+        -0.9999676942825317
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 273312,
+      "componentType": 5126,
+      "count": 13584,
+      "max": [
+        0.9999744892120361,
+        0.9999935626983643,
+        0.9999597072601318,
+        1.0
+      ],
+      "min": [
+        -0.9999571442604065,
+        -0.9999921917915344,
+        -0.999072253704071,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 409968,
+      "componentType": 5126,
+      "count": 13584,
+      "max": [
+        0.9895056486129761,
+        0.9998568892478943
+      ],
+      "min": [
+        0.00014308205572888255,
+        0.00014300551265478134
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 518640,
+      "componentType": 5126,
+      "count": 13584,
+      "max": [
+        0.9895056486129761,
+        0.9998568892478943
+      ],
+      "min": [
+        0.00014308205572888255,
+        0.00014300551265478134
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 404208,
+      "componentType": 5125,
+      "count": 72096,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Garlovisuals (https://sketchfab.com/garlovisual)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/wooden-armchair-8b98946af10b4b97afce07a2eab66979",
+      "title": "Wooden Armchair"
+    },
+    "generator": "Sketchfab-16.15.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 692592,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 627312,
+      "byteOffset": 692592,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 735984,
+      "byteOffset": 1319904,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 490656,
+      "byteOffset": 2055888,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2546544,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/fabric_baseColor.png"
+    },
+    {
+      "uri": "textures/fabric_normal.png"
+    },
+    {
+      "uri": "textures/legs_baseColor.png"
+    },
+    {
+      "uri": "textures/legs_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "fabric",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "legs",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8735088935932648
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Wooden Sofa_fabric_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Wooden Sofa_legs_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11
+          },
+          "indices": 12,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "sofa.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Wooden Sofa"
+    },
+    {
+      "mesh": 0,
+      "name": "Wooden Sofa_fabric_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Wooden Sofa_legs_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

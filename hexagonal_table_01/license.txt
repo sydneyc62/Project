@@ -1,0 +1,8 @@
+Model Information:
+* title:	Hexagonal Table 01
+* source:	https://sketchfab.com/3d-models/hexagonal-table-01-4faf118e1d4442868b9fe746cc1772f4
+* author:	Nichgon (https://sketchfab.com/nichgon)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
