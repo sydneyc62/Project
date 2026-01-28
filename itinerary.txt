@@ -12,3 +12,7 @@ THINGS TO DO
 
 >bring in distance and other functions
 fiigure out how nav-mesh works for walls
+
+change the carpet to maroon 
+and make the outside like a stone color
+Handsome squidward
