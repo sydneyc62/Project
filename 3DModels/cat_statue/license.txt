@@ -1,0 +1,8 @@
+Model Information:
+* title:	Cat Statue
+* source:	https://sketchfab.com/3d-models/cat-statue-fb4f3bfccf6c404fbac221aa144e8540
+* author:	Prince Obrymec (https://sketchfab.com/prince-obrymec)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

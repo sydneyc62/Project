@@ -24,6 +24,8 @@
                 <a-asset-item id="table2" src="../3DModels/classic_round_side_table/scene.gltf"></a-asset-item>
                 <a-asset-item id="bench" src="../3DModels/bench/scene.gltf"></a-asset-item>
                 <a-asset-item id="marble" src="../Images/marble2.jpg"></a-asset-item>
+                <a-asset-item id="cat" src="../3DModels/cat_statue/scene.gltf"></a-asset-item>
+                <a-asset-item id="statue" src="../3DModels/greek_underwater_broken_statue_3/scene.gltf"></a-asset-item>
                 <!-- <a-asset-item id="plant2" src="../3DModels/house_palm_plant/scene.gltf"></a-asset-item>     -->
                 <!-- <a-asset-item id="plant3" src="../3DModels/majesty_palm_plant/scene.gltf"></a-asset-item> -->
                 <!-- Paintings -->
@@ -33,7 +35,8 @@
 
 
 
-          <a-entity light="type: ambient; intensity: 0.2; distance: 50; decay: 2" position="-0.5 10 -1.5"></a-entity>
+          <a-entity light="type: ambient; intensity: 0.1; distance: 50; decay: 2" position="-0.5 10 -1.5"></a-entity>
+
 
 
           <!-- <a-entity gltf-model="#navmesh" nav-mesh></a-entity> -->
@@ -60,7 +63,9 @@
 
           <!-- <a-gltf-model src="#plant2" position="-5 0 -9" scale="2 2 2" rotation="0 90 0"></a-gltf-model> -->
           <!-- <a-gltf-model src="#plant3" position="-5 0 -9" scale="2 2 2" rotation="0 90 0"></a-gltf-model> -->
-         
+            
+          <a-gltf-model src="#cat" position="-12 1.25 -36.25" scale="5 5 5"></a-gltf-model>
+          <a-gltf-model src="#statue" position="-10.5 2 -11" rotation="0 180 0" scale="3 3 3"></a-gltf-model>
           
 
             
@@ -519,7 +524,11 @@
 
 
               <!-- Roof for room one -->
-              <a-box static-body position="-0.5 9 -6.5" width="18" height="0.1" depth="13" color="white"></a-box> 
+              <a-box static-body position="-0.5 9 -6.5" width="18" height="0.1" depth="13" color="white"></a-box>
+
+             <!-- Light for lobby -->
+              <a-box position="-0.5 8.5 -7" width="5" height="1" depth="1" color="#B8B8B8" rotation="270 0 0" light="type: spot; angle: 45; intensity: 3"></a-box>
+              <!-- <a-box position="-0.5 8.5 -10" width="5" height="1" depth="1" color="black" rotation="270 0 0" light="type: spot; angle: 45; intensity: 3"></a-box> -->
              
             </a-entity>
 
@@ -684,8 +693,6 @@
 
 
 
-                <!--Second room -->
-
 
 
               
@@ -793,6 +800,9 @@
                 <a-box  width="18" height="1.97" depth="0.1"></a-box>
               </a-entity>
 
+
+              <!-- carpet 1 -->
+
               <a-box static-body position="-0.61 0.04 6.25" rotation="-90 0 0" height="12.5" width="3" depth="0.1" color="#59161D"></a-box>
 
 
@@ -861,25 +871,27 @@
                   <a-box position="-0.5 2 -30" width="4" height="4" depth="0.1" color="#613B09"></a-box>
                 </a-entity>
 
-                <a-box position="-0.61 0.04 -15" rotation="-90 0 0" height="30" width="3" depth="0.1" color="#800000"></a-box>
+                <!-- carpet 2 -->
+
+                <a-box position="-0.61 0.04 -15" rotation="-90 0 0" height="30" width="3" depth="0.1" color="#59161D"></a-box>
 
                 <!-- Pillars in second room -->
-                <a-cylinder position="-14.5 4.5 -1" rotation="0 90 0" radius="0.6" height="9" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="-14.5 0.25 -1" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="-14.5 8.75 -1" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
+                <a-cylinder position="-14.5 4.5 -1" rotation="0 90 0" radius="0.6" height="9" color="white"></a-cylinder>
+                <a-cylinder position="-14.5 0.25 -1" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
+                <a-cylinder position="-14.5 8.75 -1" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
 
-                <a-cylinder position="13.5 4.5 -1" rotation="0 90 0" radius="0.6" height="9" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="13.5 0.25 -1" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="13.5 8.75 -1" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
+                <a-cylinder position="13.5 4.5 -1" rotation="0 90 0" radius="0.6" height="9" color="white"></a-cylinder>
+                <a-cylinder position="13.5 0.25 -1" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
+                <a-cylinder position="13.5 8.75 -1" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
 
 
-                <a-cylinder position="-14.5 4.5 -29" rotation="0 90 0" radius="0.6" height="9" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="-14.5 0.25 -29" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="-14.5 8.75 -29" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
+                <a-cylinder position="-14.5 4.5 -29" rotation="0 90 0" radius="0.6" height="9" color="white"></a-cylinder>
+                <a-cylinder position="-14.5 0.25 -29" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
+                <a-cylinder position="-14.5 8.75 -29" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
 
-                <a-cylinder position="13.5 4.5 -29" rotation="0 90 0" radius="0.6" height="9" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="13.5 0.25 -29" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
-                <a-cylinder position="13.5 8.75 -29" rotation="0 90 0" radius="0.9" height="0.5" color="#DEDEDE"></a-cylinder>
+                <a-cylinder position="13.5 4.5 -29" rotation="0 90 0" radius="0.6" height="9" color="white"></a-cylinder>
+                <a-cylinder position="13.5 0.25 -29" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
+                <a-cylinder position="13.5 8.75 -29" rotation="0 90 0" radius="0.9" height="0.5" color="white"></a-cylinder>
 
                 <a-box position="-6 4.65 -5" rotation="0 90 0" width="10" height="10.5" depth="0.2" color="white"></a-box>
 
@@ -888,7 +900,7 @@
 
                 <a-box position="4 4.65 -20.95" rotation="0 90 0" width="18" height="10.5" depth="0.2" color="white"></a-box>
                 <a-box position="7 4.65 -12" rotation="0 180 0" width="6" height="10.5" depth="0.2" color="white"></a-box>
-                
+                    
                 <a-box position="8 0.5 -13" width="3" height="1.5" depth="2" color="white"></a-box>
 
                 <a-box position="5 0.5 -21" rotation="0 90 0" width="7" height="1.5" depth="2" color="white"></a-box>
@@ -906,6 +918,12 @@
                 <!-- <a-box position="7 0.5 -6" width="7" height="4" depth="2" color="white"></a-box> -->
 
                 <!-- <a-entity light="color: #ffffff; intensity: 3.5" position="0.5 10 -15"></a-entity> -->
+
+                <!-- Lights for room 2 -->
+                <a-box position="-0.5 8.5 -15" width="5" height="1" depth="1" color="#B8B8B8" rotation="270 0 0" light="type: directional; angle: 45; intensity: 1"></a-box>
+                <!-- <a-box position="-8.5 8.5 -7" width="5" height="1" depth="1" color="#B8B8B8" rotation="270 0 0" light="type: spot; angle: 45; intensity: 3"></a-box>
+                <a-box position="8.5 8.5 -7" width="5" height="1" depth="1" color="#B8B8B8" rotation="270 0 0" light="type: spot; angle: 45; intensity: 3"></a-box>
+                <a-box position="8.5 8.5 -24" width="5" height="1" depth="1" color="#B8B8B8" rotation="270 0 0" light="type: spot; angle: 45; intensity: 3"></a-box> -->
              
 
 
@@ -924,7 +942,7 @@
             <!-- <a-plane static-body rotation="-90 1.5 0" width="10" height="10" color="#7BC8A4"></a-plane> -->
 
 
-            <a-sky color="#a7cfeb"></a-sky>
+            <a-sky color="#00000F"></a-sky>
 
             <a-plane static-body rotation="-90 0 0" position="-0.5 0 -1.5" width="18" height="13" color="#999999"></a-plane>
               
@@ -941,7 +959,7 @@
 
             
               
-              <a-camera position="0 2.15 15" look-controls="enabled: true">
+              <a-camera position="0 2.15 15" look-controls="enabled: true" wasd-controls="fly: true">
                 <a-cursor></a-cursor>
               </a-camera>
                    
@@ -960,3 +978,4 @@
 
 
 <!-- wasd-controls="fly: true" -->
+<!-- #a7cfeb -->
