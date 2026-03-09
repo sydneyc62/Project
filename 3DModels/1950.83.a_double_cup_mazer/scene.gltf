@@ -1,0 +1,236 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 42629,
+      "max": [
+        0.1012749969959259,
+        -0.0011549999471753836,
+        0.07965400069952011
+      ],
+      "min": [
+        -0.0660569965839386,
+        -0.17365600168704987,
+        -0.08974800258874893
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 511548,
+      "componentType": 5126,
+      "count": 42629,
+      "max": [
+        0.9999910593032837,
+        0.9999995231628418,
+        0.9998273253440857
+      ],
+      "min": [
+        -0.9999366998672485,
+        -0.9999970197677612,
+        -0.9998361468315125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 42629,
+      "max": [
+        0.9999935626983643,
+        0.9999539256095886,
+        0.9998322129249573,
+        1.0
+      ],
+      "min": [
+        -0.9955746531486511,
+        -0.9998242259025574,
+        -0.9999898076057434,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 42629,
+      "max": [
+        0.9495109915733337,
+        0.9997820258140564
+      ],
+      "min": [
+        0.00021800000104121864,
+        0.00021800000104121864
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 150000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cleveland Museum of Art (https://sketchfab.com/clevelandart)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/195083a-double-cup-mazer-1c4399ef12644bab8452ab4fd051281e",
+      "title": "1950.83.a Double Cup (Mazer)"
+    },
+    "generator": "Sketchfab-16.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 600000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 341032,
+      "byteOffset": 600000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1023096,
+      "byteOffset": 941032,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 682064,
+      "byteOffset": 1964128,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2646192,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/1950.83.a_Double_Cup_baseColor.png"
+    },
+    {
+      "uri": "textures/1950.83.a_Double_Cup_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/1950.83.a_Double_Cup_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "1950.83.a_Double_Cup",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.7940286993980408,
+        1.3497652655976528e-16,
+        -0.6078802347183228,
+        0.0,
+        0.004533922299742699,
+        -0.9999721646308899,
+        0.005922324955463187,
+        0.0,
+        -0.6078633666038513,
+        -0.007458577863871875,
+        -0.7940066456794739,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "1950.83.a Double Cup.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

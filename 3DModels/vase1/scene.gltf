@@ -1,0 +1,332 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        -0.19697900116443634,
+        -0.0033480001147836447,
+        0.08391299843788147
+      ],
+      "min": [
+        -0.3879129886627197,
+        -0.311832994222641,
+        -0.07653000205755234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999622106552124,
+        0.9999961853027344,
+        0.9999563694000244
+      ],
+      "min": [
+        -0.9999805688858032,
+        -0.9999998807907104,
+        -0.999653160572052
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999589323997498,
+        0.9999969601631165,
+        0.9999974966049194,
+        1.0
+      ],
+      "min": [
+        -0.9999004602432251,
+        -0.9999993443489075,
+        -0.9999717473983765,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9595789909362793,
+        0.9998779892921448
+      ],
+      "min": [
+        0.00012199999764561653,
+        0.00012199999764561653
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 82911,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 30762,
+      "max": [
+        -0.21720199286937714,
+        -0.18512800335884094,
+        0.0834520012140274
+      ],
+      "min": [
+        -0.38037899136543274,
+        -0.3462580144405365,
+        -0.07182999700307846
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1941912,
+      "componentType": 5126,
+      "count": 30762,
+      "max": [
+        0.9998581409454346,
+        0.9999960660934448,
+        0.9999556541442871
+      ],
+      "min": [
+        -0.9999927282333374,
+        -0.999983549118042,
+        -0.9995189309120178
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 30762,
+      "max": [
+        0.999163806438446,
+        0.9999996423721313,
+        0.9999923706054688,
+        1.0
+      ],
+      "min": [
+        -0.9999964237213135,
+        -0.9999997615814209,
+        -0.9999896287918091,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 30762,
+      "max": [
+        0.8922060132026672,
+        0.9879860281944275
+      ],
+      "min": [
+        0.00031800000579096377,
+        0.0003539999888744205
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 331644,
+      "componentType": 5125,
+      "count": 36825,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cleveland Museum of Art (https://sketchfab.com/clevelandart)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/20204213-vase-for-a-garniture-set-2781fc4d017e4849b2a03689f1e83e5c",
+      "title": "2020.421.3 Vase for a Garniture Set"
+    },
+    "generator": "Sketchfab-16.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 478944,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 770352,
+      "byteOffset": 478944,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2311056,
+      "byteOffset": 1249296,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1540704,
+      "byteOffset": 3560352,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5101056,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/2020.421.3_Vase_Mats_baseColor.png"
+    },
+    {
+      "uri": "textures/2020.421.3_Vase_Mats_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/2020.421.3_Vase_Mats_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "2020.421.3_Vase_Mats",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.8547834753990173,
+        5.972662245150567e-17,
+        -0.5189847946166992,
+        0.0,
+        -1.1102230246251565e-16,
+        -1.0,
+        1.1102230246251565e-16,
+        0.0,
+        -0.5189847946166992,
+        1.4326684829612694e-16,
+        0.8547834753990173,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "2020.421.3 Vase for a Garniture Set.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-Model Information:
-* title:	Roman Column
-* source:	https://sketchfab.com/3d-models/roman-column-6039fc8edd4e48609c39e0a12687d7e2
-* author:	aidy.vg (https://sketchfab.com/aidy.vg)
-
-Model License:
-* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
-* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

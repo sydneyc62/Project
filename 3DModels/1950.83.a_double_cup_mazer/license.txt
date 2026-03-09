@@ -1,0 +1,8 @@
+Model Information:
+* title:	1950.83.a Double Cup (Mazer)
+* source:	https://sketchfab.com/3d-models/195083a-double-cup-mazer-1c4399ef12644bab8452ab4fd051281e
+* author:	Cleveland Museum of Art (https://sketchfab.com/clevelandart)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.

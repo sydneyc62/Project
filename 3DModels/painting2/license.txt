@@ -1,0 +1,8 @@
+Model Information:
+* title:	JMW Turner's 'Borrowdale, Rosthwaite Bridge...'
+* source:	https://sketchfab.com/3d-models/jmw-turners-borrowdale-rosthwaite-bridge-b076171ae027443895407472308224ee
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.

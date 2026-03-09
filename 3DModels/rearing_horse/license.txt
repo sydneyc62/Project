@@ -1,0 +1,8 @@
+Model Information:
+* title:	Rearing Horse
+* source:	https://sketchfab.com/3d-models/rearing-horse-9e3bf0e876364988b171f165548735fd
+* author:	The Hunt Museum (https://sketchfab.com/TheHuntMuseum)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.
