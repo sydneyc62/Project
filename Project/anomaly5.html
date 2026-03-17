@@ -1,0 +1,34 @@
+<html>
+
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.3/dist/aframe-physics-system.min.js"></script>
+
+
+    </head>
+
+    <body>
+         <a-scene light="defualtLightsEnabled: false" physics="debug: false" >
+            <a-assets> 
+               <!-- <a-asset-item id="cat" src="../3DModels/cat_statue/scene.gltf"></a-asset-item>
+               <a-asset-item id="statue" src="../3DModels/greek_underwater_broken_statue_3/scene.gltf"></a-asset-item> -->
+               <a-asset-item id="devil" src="../3DModels/wee_devil/scene.gltf"></a-asset-item>
+                
+            </a-assets>
+
+
+            <a-gltf src="#devil" position="6.3 1.6 -36.5" rotation="0 -90 0"></a-gltf>
+
+
+            <!-- <a-gltf-model src="#cat" position="0 0 0" scale="1 1 1"></a-gltf-model>
+            <a-gltf-model src="#statue" position="2 0 0" scale="1 1 1"></a-gltf-model> -->
+
+        </a-scene>
+    </body>
+
+    
+
+
+
+</html>

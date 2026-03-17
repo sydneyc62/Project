@@ -1,0 +1,36 @@
+<html>
+
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.3/dist/aframe-physics-system.min.js"></script>
+
+
+    </head>
+
+    <body>
+         <a-scene light="defualtLightsEnabled: false" physics="debug: false" >
+            <a-assets> 
+               <!-- <a-asset-item id="cat" src="../3DModels/cat_statue/scene.gltf"></a-asset-item>
+               <a-asset-item id="statue" src="../3DModels/greek_underwater_broken_statue_3/scene.gltf"></a-asset-item> -->
+               <img src="../Images/painting3.jpg" id="painting3"/>
+                
+            </a-assets>
+
+
+            <a-box position="8 5 -7.65" rotation="180 360 0"width="4.5" height="3" depth="0.1" color="black" src=""></a-box>
+            <a-box position="8 5 -7.75" rotation="0 0 0" width="4" height="2.5" depth="0.1" color="white" src="#painting3"></a-box>
+
+
+
+            <!-- <a-gltf-model src="#cat" position="0 0 0" scale="1 1 1"></a-gltf-model>
+            <a-gltf-model src="#statue" position="2 0 0" scale="1 1 1"></a-gltf-model> -->
+
+        </a-scene>
+    </body>
+
+    
+
+
+
+</html>
