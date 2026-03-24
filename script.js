@@ -20,79 +20,110 @@ window.addEventListener("DOMContentLoaded",function() {
   }
 })
 
-function rndAnomalyPage(){
-  let links = new Array();
-  links = [anomaly1.html , anomaly2.html , anomaly3.html , anomaly4.html , anomaly5.html];
+// function rndAnomalyPage(){
+//   let links = new Array();
+//   links = [anomaly1.html , anomaly2.html , anomaly3.html , anomaly4.html , anomaly5.html];
 
-  let rndIndex = Math.floor(Math.Random() * links.length);
+//   let rndIndex = Math.floor(Math.Random() * links.length);
 
-  let rndUrl = links[rndIndex];
+//   let rndUrl = links[rndIndex];
 
   
 
-}
+// }
 
 
-window.addEventListener("DOMContentLoaded",function() {
+// window.addEventListener("DOMContentLoaded",function() {
   
   
 
-    let progress = localStorage.getItem('points') || 0;
-    let verify = document.getElementById("verify");
-    let verifyNeg = document.getElementById("verifyNeg");
-    let player = document.getElementById("player");
-    let valueDisplay = document.getElementById("valueDisplay");
-    let sky = document.getElementById("sky");
+//     let progress = localStorage.getItem('points') || 0;
+//     let verify = document.getElementById("verify");
+//     let verifyNeg = document.getElementById("verifyNeg");
+//     let player = document.getElementById("player");
+//     let valueDisplay = document.getElementById("valueDisplay");
+//     let sky = document.getElementById("sky");
 
-    // if(d1 < 1){
-    //     progress ++;
-    //     valueDisplay.setAttribute('value', `Distance: ${d1}`);
-    // }
+//     // if(d1 < 1){
+//     //     progress ++;
+//     //     valueDisplay.setAttribute('value', `Distance: ${d1}`);
+//     // }
 
 
       
-    if(window.location.pathname === '/'){
-        progress = 0;
+//     if(window.location.pathname === '/'){
+//         progress = 0;
 
-    }
+//     }
 
-    valueDisplay.setAttribute('value', `points: ${progress}`);
+//     valueDisplay.setAttribute('value', `points: ${progress}`);
 
-    setInterval(()=>{
-        let d1 = distance(player, verify);
-        let d2 = distance(player, verifyNeg)
+//     setInterval(()=>{
+//         let d1 = distance(player, verify);
+//         let d2 = distance(player, verifyNeg)
         
 
-        if (d1<2){
-            progress++;
-            valueDisplay.setAttribute('value', `points: ${progress}`);
-            localStorage.setItem('points', progress);
-            player.setAttribute('position', ' 0 1 0')
-            window.location.href = rndUrl;
+//         if (d1<2){
+//             progress++;
+//             valueDisplay.setAttribute('value', `points: ${progress}`);
+//             localStorage.setItem('points', progress);
+//             player.setAttribute('position', ' 0 1 0')
+//             window.location.href = rndUrl;
 
-            if(window.location.pathname === '/game.html'){
-                localStorage.setItem('points', 0);
-            }
-        }
+//             if(window.location.pathname === '/game.html'){
+//                 localStorage.setItem('points', 0);
+//             }
+//         }
 
-        if(d2<2){
-            progress--;
-            valueDisplay.setAttribute('value', `points: ${progress}`);
-            localStorage.setItem('points', progress);
-            player.setAttribute('position', ' 0 1 0')
-            window.location.href = 'game.html';
+//         if(d2<2){
+//             progress--;
+//             valueDisplay.setAttribute('value', `points: ${progress}`);
+//             localStorage.setItem('points', progress);
+//             player.setAttribute('position', ' 0 1 0')
+//             window.location.href = 'game.html';
 
-            if(window.location.pathname === `/${rndUrl}` ){
-                localStorage.setItem('points', 0);
-            }
+//             if(window.location.pathname === `/${rndUrl}` ){
+//                 localStorage.setItem('points', 0);
+//             }
             
-        }
+//         }
         
-    }, 100);
+//     }, 100);
 
     
 
-})
+// })
+
+  window.addEventListener("DOMContentLoaded",function(){
+
+
+
+     document.querySelectorAll('.artifact').forEach(artifact => {
+
+        artifact.addEventListener('click', function() {
+          artifact.setAttribute("opacity",0);
+    });
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+
 
 
 
