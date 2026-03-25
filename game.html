@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <a-scene light="defualtLightsEnabled: false" physics="debug: false" >
+        <a-scene light="defaultLightsEnabled: false" physics="debug: false" >
             <a-assets> 
                 <!-- <img src="Image/grid.png" id="grid"/>     -->
                 <!-- <a-asset-item id="pillar" src="roman_column/scene.gltf"></a-asset-item> -->
@@ -72,7 +72,7 @@
 
           <a-gltf-model src="#bench" position="8 1 -14" rotation="0 90 0" scale="2 2 2" rotation="0 180 0"></a-gltf-model>
 
-          <!-- <a-gltf-model src="#eve" position="-10.5 3.75 -11" rotation="0 180 0" scale="25 25 25"></a-gltf-model> -->
+          <a-gltf-model src="#eve" position="-10.5 3.75 -11" rotation="0 180 0" scale="25 25 25"></a-gltf-model>
 
           <a-gltf-model src="#zodiac1"  class="artifact"  position="-15 2 -34" rotation="0 90 0" scale="10 10 10"></a-gltf-model>
           <a-gltf-model src="#vase1"  class="artifact" position="7.5 1 -21.2" scale="5 5 5"></a-gltf-model>
@@ -96,18 +96,23 @@
           
           <a-text value="You will have to wait a few seconds for all assets to load in." color="white" position="-3 5 -7"></a-text>
 
-            
-           
+        <a-entity id="lasers">    
+          <a-cylinder id="laser" height="12.5" radius="0.1" color="red" position="-11 5 -15" rotation="-200 20 -110"></a-cylinder>
 
+          <a-cylinder id="laser" height="14.5" radius="0.1" color="red" position="-0.5 5 -15" rotation="-300 20 -110"></a-cylinder>
+          <a-cylinder id="laser" height="14.5" radius="0.1" color="red" position="-0.5 5 -15" rotation="-300 20 -110"></a-cylinder>
+
+          <a-cylinder id="laser" height="17" radius="0.1" color="red" position="8 5 -25" rotation="135 0 180"></a-cylinder>
+          <a-cylinder id="laser" height="17" radius="0.1" color="red" position="10 5 -25" rotation="45 0 180"></a-cylinder>
+          <a-cylinder id="laser" height="14" radius="0.1" color="red" position="10 5 -27" rotation="90 0 120"></a-cylinder>
+
+
+        </a-entity>
          
 
           <a-entity class="plain_wall" position="0 0 5" rotation="0 0 0">
 
 
-
-
-              
-            
               
                   <a-box static-body position="3.5 4.5 0.01" width="2" height="7" depth="0.1" opacity="0.5" color="#96E6FA"></a-box>
                 
@@ -422,7 +427,7 @@
 
             </a-entity>
 
-
+            
 
 
 

@@ -40,6 +40,12 @@ window.addEventListener("DOMContentLoaded",function() {
       localStorage.setItem('points', progress);
       });
     });
+
+    if(progress == 11){
+      let winText = document.createElement('a-text');
+      winText.setAttribute("value", "You win!");
+      scene.appendChild(winText);
+    }
   }); 
 
 
