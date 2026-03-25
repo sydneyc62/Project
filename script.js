@@ -9,6 +9,7 @@ let rnd2 = (l,u) => Math.floor(Math.random()*(u-l) + l);
 
 let scene;
 let progress = localStorage.getItem('points') || 0;
+let winText = document.getElementById('winText');
 
 
 
@@ -38,14 +39,14 @@ window.addEventListener("DOMContentLoaded",function() {
       progress++;
       valueDisplay.setAttribute('value', `points: ${progress}`);
       localStorage.setItem('points', progress);
+
+      if(progress > 11){
+        winText.setAttribute("value", "You win!");
+        winText.setAttribute("visible" , "true");
+      
+        }
       });
     });
-
-    if(progress == 11){
-      let winText = document.createElement('a-text');
-      winText.setAttribute("value", "You win!");
-      scene.appendChild(winText);
-    }
   }); 
 
 
